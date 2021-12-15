@@ -1,0 +1,84 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(to bottom right, #fa5858 44%, #58fa58 90%);
+    color: white;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+.heading{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    font-size: 9vmax;
+    line-height: 1.1;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.purple{
+    color: purple;
+}
+
+#content{
+    text-align: center;
+}
+
+#content h2{
+    font-size: 5vmax;
+}
+
+#content p{
+    font-family: sans-serif;
+    margin: 1rem;
+}
+
+#los{
+    color: white;
+    text-decoration: none;
+    font-size: 15vmax;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+#bild1{
+    width: 30vmax;
+}
+
+@media only screen and (min-width: 1000px){
+    .heading{
+        font-size: 6rem;
+    }
+
+    #los{
+        font-size: 10rem;
+    }
+
+    #content h2{
+        font-size: 4rem;
+    }
+
+    #content p {
+        font-size: 1.2rem;
+        max-width: 50%;
+        margin: auto;
+        padding: 0.5rem, 0;
+    }
+
+    #bild1{
+        width: 20rem;
+        margin-top: 2rem;
+    }
+}
